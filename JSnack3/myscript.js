@@ -16,7 +16,6 @@ let div2 = document.createElement('div');
 document.body.appendChild(div2);
 div2.id = 'green';
 
-
 for(i=0; i<myArr.length; i++){
 
     if( myArr[i]%2 == 0){
@@ -26,9 +25,4 @@ for(i=0; i<myArr.length; i++){
         
         document.getElementById("red").innerHTML += myArr[i];
     }
-
-
-
-
-
 }
