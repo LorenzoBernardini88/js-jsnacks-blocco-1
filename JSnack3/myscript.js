@@ -17,12 +17,13 @@ document.body.appendChild(div2);
 div2.id = 'green';
 
 
-for(i=0; i<=myArr.length; i++){
+for(i=0; i<myArr.length; i++){
 
     if(i%2 == 0){
         document.getElementById("green").innerHTML = myArr[i];
         
     }else{
+        
         document.getElementById("red").innerHTML = myArr[i];
     }
 
