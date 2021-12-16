@@ -8,7 +8,6 @@
 
 let N = parseInt(prompt('Inserisci un Numero '));
 
-
 for(index=0; index<N; index++){
 
     const array = [];
